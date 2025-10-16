@@ -75,3 +75,53 @@ horses[2].isHungry = true;
 horses[3].isHungry = false;
 
 console.log(horses);
+
+
+// Stables part 3!!
+
+let totalStalls = 6;
+
+function AvailableStalls() {
+    let occupied = 4;
+    let available = totalStalls - occupied;
+    console.log(
+        "There are " +
+            available +
+            " stalls available out of " +
+            totalStalls +
+            "."
+    );
+}
+AvailableStalls();
+
+function calculateLateRent(horseName) {
+    let horse = horses.find((h) => h.name === horseName);
+    if (horse) {
+        let lateAmount = horse.monthlyRent * 1.2;
+        console.log(
+            horse.name +
+                " has a late rent. The total amount due is $" +
+                lateAmount +
+                "."
+        );
+    } else {
+        console.log("Horse not found.");
+    }
+}
+
+calculateLateRent("Boo");
+
+function getHorseNickname(horseName) {
+    let horse = horses.find((h) => h.name === horseName);
+    return horse ? horse.nickname : "Horse not found";
+}
+let nicknameResult = getHorseNickname("Boo");
+console.log("The nickname of Boo is: " + nicknameResult);
+
+
+
+
+
+
+
+
