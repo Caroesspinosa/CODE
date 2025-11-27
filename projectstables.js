@@ -107,6 +107,7 @@ horses[3].isHungry = false;
 // Si quisiera uno especifico (no el caso): You access items in an array like this: let stuff = [“a”, “b”, “c”, “d”]; console.log(stuff[3]);  “d”
 console.log(horses);
 
+
 // Ejemplos de uso de arrays:
 // let nums = [1, 2, 3, 4]; console.log(num[0] + num[2]); // 4
 // let chars = [“a”, “b”, “c”, “d”]; console.log(chars[1] + chars[2]); // bc
@@ -121,6 +122,9 @@ console.log(horseIntro);
 the stables: Beans, Strawberry,
 and Charlie.
 */
+
+
+// Stables part 3!!
 
 let totalStalls = 6;
 
@@ -242,6 +246,8 @@ switch to it in one step
 Analogy: branches are like parallel
 timelines — you can diverge,
 experiment, then maybe merge back
+=======
+>>>>>>> refs/remotes/origin/main
 
 
 
@@ -301,4 +307,3 @@ experiment, then maybe merge back
       <tr>
 
 
-      
